@@ -1,0 +1,26 @@
+<!-- TODO App -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>TODO APP</h1>
+        <div class="input-feild">
+            <input type="text" id="todo-item" placeholder="Enter a Work To Do">
+            <button onclick='addItem()'><i class="fas fa-plus"></i></button>
+        </div>
+        <button onclick="delAll()" class="hide" id="delBtn">DELETE ALL</button>
+        <div id="list"><ul></ul></div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,105 @@
+/* TODO App */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s all linear;
+    font-family: 'Rowdies', cursive;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+.hide{
+    display: none;
+}
+.container{
+    text-align: center;
+    background-color: rgb(47, 47, 46);
+    max-width: 400px;
+    min-height: 600px;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+}
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.input-feild{
+    width: 90%;
+    margin: 10px auto;
+}
+.input-feild input{
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    border-style: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.input-feild input:focus{
+    border-bottom: 1px solid darkgrey;
+}
+.input-feild button{
+    width: 8%;
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+    color: white;
+    background: rgb(80, 80, 78);
+    border-style: none;
+    border-radius: 5px;
+}
+.input-feild button:hover{
+    cursor: pointer;
+    background: rgb(124, 124, 120);
+}
+#delBtn{
+    padding: 8px;
+    margin: 10px 0px;
+    font-size: 18px;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    background: rgb(80, 80, 78);
+    border-style: none;
+}
+#delBtn:hover{
+    cursor: pointer;
+    background: rgb(124, 124, 120);
+}
+#list{
+    margin: 10px 30px;
+}
+.para{
+    text-align: left;
+    color:white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+span{
+    float: right;
+}
+span button{
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 18px;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    background: rgb(80, 80, 78);
+    border-style: none;
+}
+span button:hover{
+    cursor: pointer;
+    background: rgb(124, 124, 120);
+}
